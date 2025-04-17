@@ -1,0 +1,91 @@
+
+/* reagras do header */
+
+header{
+background-color:#982417;
+}
+
+.pai{
+text-align: center;
+justify-content: center;
+font-family: "Just Me Again Down Here", cursive;
+font-weight: 400;
+font-style: normal;
+align-items: center;
+display: flex;
+font-size: 50px;
+padding: 10px;
+
+
+}
+
+  .pai h1{
+    font-size:80px ;
+  }
+
+  span{
+      color: #FFF0D1;
+  }
+  
+  .coffe{
+      color:#FFF0D1;
+      align-items: center;
+      justify-content: center;
+      width: 66.67px;
+      height: 60px;
+      text-align: center;
+     
+  }
+
+.navbar{
+display: flex;
+text-align: center;
+justify-content: center;
+color: #FFF0D1;
+gap: 60px;
+text-decoration: none;
+font-size: 20px;
+text-align: center;
+justify-content: center;
+font-family: "Just Me Again Down Here", cursive;
+font-weight: 400;
+font-size: 30px;
+padding: 10px;
+
+
+}
+
+
+
+.navbar a:hover{
+    color:white;
+    border-bottom: 3px solid #FFF0D1;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover{
+    color:white;
+    border-bottom: 3px solid #FFF0D1;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:white;
+    border-bottom: 3px solid #FFF0D1;
+    text-decoration: none;
+}
+/* header acaba aqui */
+
+/* reagras do MAIN */
+main{
+    display: flex;
+
+}
+
+
+
+
+
+
+

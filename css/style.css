@@ -1,7 +1,22 @@
 /* reagras do header */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header, main, footer {
+    width: 100%; /* Não usa 100vw pra evitar scroll */
+  }
 
 header {
     background-color: #982417;
+
 }
 
 .pai {
@@ -104,51 +119,32 @@ span {
 /* header acaba aqui */
 
 /* reagras do MAIN */
-main {
-    background-position: center;
-    background-size: cover;
+main{
+    background-color: rgb(255, 255, 255);
     background-image: url(../img/banner_Dsk.png);
-    height: 600px;
-    display: flex;
-    justify-content: right;
-    text-align: center;
-    align-items: center;
-
-
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    width: 1,440px;
+    height: 528px;
+    
 }
 
-
-.conteiner {
+.pai_form{
+    display: flex;
+    align-items: left;
+    justify-content: right;
+    padding:60px;
+  
+  
+}
+.form{
     display: flex;
     background-color: white;
     width: 589px;
     height: 237px;
     text-align: center;
-    justify-content: center;
     
-}
-
-.Font{
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-    padding: 40px;
-
-}
 
 
-
-
-.spanConteiner{
-    color: #982417;
-}
-
-h1{
-    margin-bottom: 10px;
-}
-
-
-
-h2{
-font-family: ;
-margin-bottom: 10px;
 }

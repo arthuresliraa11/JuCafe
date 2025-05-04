@@ -1,18 +1,21 @@
 /* reagras do header */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
+
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-header, main, footer {
-    width: 100%; /* Não usa 100vw pra evitar scroll */
-  }
+header,
+main,
+footer {
+    width: 100%;
+    /* Não usa 100vw pra evitar scroll */
+}
 
 header {
     background-color: #982417;
@@ -119,28 +122,29 @@ span {
 /* header acaba aqui */
 
 /* reagras do MAIN */
-main{
+main {
     background-color: rgb(255, 255, 255);
     background-image: url(../img/banner_Dsk.png);
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: center;
-    width: 1,440px;
+    width: 1, 440px;
     height: 528px;
-    
+
 }
 
 
-.pai_form{
+.pai_form {
     display: flex;
     justify-content: right;
-    
-    
-    
-  
-  
+
+
+
+
+
 }
-.form{
+
+.form {
     display: block;
     background-color: white;
     text-align: center;
@@ -157,70 +161,118 @@ main{
 
 }
 
-.form_two{
+.form_two {
     display: block;
     font-size: 20px;
     margin-top: 30px;
     font-family: "Lekton", monospace;
     font-weight: 400;
     font-style: normal;
-  }
-
-.span_two{
-   color: maroon;
 }
 
-.pai_botoes{
-   
-    padding: 8px ;
+.span_two {
+    color: maroon;
+}
+
+.pai_botoes {
+
+    padding: 8px;
     justify-content: center;
 
 }
 
-.botao-branco{
+.botao-branco {
 
     border: 1px solid orange;
     border-radius: 10px;
     padding: 8px 20px;
     margin-top: 30px;
-    
+
 }
 
-.botao-laranja{
+.botao-laranja {
 
     border: 1px solid orange;
     background-color: orange;
     border-radius: 10px;
     padding: 8px 20px;
-    
+
 
 }
+
 /* reagras do MAIN acaba aqui */
 
-.parte-dois{
+.two_parte {
     display: flex;
     background-color: #FFF0D1;
-    width: 1.440px;
     height: 360px;
+   
+    
 
 
 }
-.destaque{
-    display:inline-flex;
-    color:#982417;
+
+.destaque {
+    display: flex;
+    height: 10px;
+    color: #982417;
     padding-left: 15px;
+    margin-top: 30px;
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+  
     
+  
+
+
 }
 
-.destaque::before{
-    content: ""; /* Conteúdo vazio é necessário para pseudo-elementos */
-    display: flex; /* Para controlar largura e altura */
-    margin-top: 5px;
-    width: 10px; /* Largura da barra */
-    height: 1.2em; /* Altura da barra (ajuste conforme a altura da sua fonte) */
-    background-color: #A52A2A; /* Cor da barra (marrom, como na imagem) */
-    margin-right: 10px; /* Espaço entre a barra e o texto */
-    vertical-align: middle; /* Manter o alinhamento vertical */
-    
+.destaque::before {
+    content: "";
+    /* Conteúdo vazio é necessário para pseudo-elementos */
+    display: flex;
+    /* Para controlar largura e altura */
+  
+    gap: -10px;
+    width: 10px;
+    /* Largura da barra */
+    height: 1.2em;
+    /* Altura da barra (ajuste conforme a altura da sua fonte) */
+    background-color: #A52A2A;
+    /* Cor da barra (marrom, como na imagem) */
+    margin-right: 8px;
+    /* Espaço entre a barra e o texto */
+    vertical-align: :bottom
+        /* Manter o alinhamento vertical */
 
+
+}
+
+.pai_one{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+
+.one{
+display: flex;
+background-color: aliceblue;
+width: 300px;
+height: 249px;
+margin-top: 100px;
+margin-right: 80px;
+text-align: center;
+}
+
+.one_text{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  
 }

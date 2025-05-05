@@ -316,3 +316,56 @@ h3 {
 
     color: rgb(0, 0, 0);
 }
+
+
+.tre_part{
+    display: flex;
+    height: 595px;
+    background-color: #000000;
+    background-image: url(../img/franqueado.png);
+    justify-content: left;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+   
+    
+    
+
+
+
+
+
+
+}
+
+
+.depoimentos{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    
+
+
+}
+
+
+.depoimentos::before {
+    content: "";
+    /* Conteúdo vazio é necessário para pseudo-elementos */
+    display: flex;
+    /* Para controlar largura e altura */
+
+    gap: -10px;
+    width: 4px;
+    /* Largura da barra */
+    height: 1.2em;
+    /* Altura da barra (ajuste conforme a altura da sua fonte) */
+    background-color: #ffffff;
+    /* Cor da barra (marrom, como na imagem) */
+    margin-right: 10px;
+    /* Espaço entre a barra e o texto */
+    vertical-align: :bottom
+        /* Manter o alinhamento vertical */
+
+
+}

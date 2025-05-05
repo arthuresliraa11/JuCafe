@@ -162,6 +162,7 @@ main {
 }
 
 .form_two {
+
     display: block;
     font-size: 20px;
     margin-top: 30px;
@@ -202,28 +203,36 @@ main {
 
 /* reagras do MAIN acaba aqui */
 
-.destaque::before{
-    content: ""; /* Conteúdo vazio é necessário para pseudo-elementos */
-    display: block; /* Para controlar largura e altura */
+.destaque::before {
+
+    content: "";
+    /* Conteúdo vazio é necessário para pseudo-elementos */
+    display: block;
+    /* Para controlar largura e altura */
     margin-top: 5px;
-    width: 10px; /* Largura da barra */
-    height: 1.2em; /* Altura da barra (ajuste conforme a altura da sua fonte) */
-    background-color: #A52A2A; /* Cor da barra (marrom, como na imagem) */
-    margin-right: 10px; /* Espaço entre a barra e o texto */
-    vertical-align: middle; /* Manter o alinhamento vertical */
+    width: 10px;
+    /* Largura da barra */
+    height: 1.2em;
+    /* Altura da barra (ajuste conforme a altura da sua fonte) */
+    background-color: #A52A2A;
+    /* Cor da barra (marrom, como na imagem) */
+    margin-right: 10px;
+    /* Espaço entre a barra e o texto */
+    vertical-align: middle;
+    /* Manter o alinhamento vertical */
+
 }
-    
+
 .parte_dois {
+
     display: flex;
     background-color: #FFF0D1;
     height: 360px;
-   
-    
-
 
 }
 
 .destaque {
+
     display: flex;
     color: #982417;
     padding-left: 15px;
@@ -232,10 +241,6 @@ main {
     font-weight: 700;
     font-style: normal;
     font-size: 32px;
-  
-    
-  
-
 
 }
 
@@ -244,7 +249,7 @@ main {
     /* Conteúdo vazio é necessário para pseudo-elementos */
     display: flex;
     /* Para controlar largura e altura */
-  
+
     gap: -10px;
     width: 10px;
     /* Largura da barra */
@@ -259,20 +264,55 @@ main {
 
 
 }
-.pai_one{
+
+.pai_one {
+
+   
     display: flex;
+    background-repeat: none;
     text-align: center;
     margin-top: 90px;
     background-color: white;
     width: 300px;
     height: 249px;
-    text-align: center;
+    padding-top: -100px;
+    
+   
+    
+
+
 }
 
 
 
-.text_one{
-    display: flex;
-    color: #982417;
+
+
+
+
+.text_one {
+
+
+   background-image: url(../img/Increase.png);
+   background-repeat: no-repeat;
+   text-align: center;
+    display: block;
+    color: #000000;
+    width: 200px;
     text-align: center;
+    margin-top: 120px;
+    margin-left: 55px;
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+
+.mercado {
+
+    color: #982417;
+    padding: 10px;
+}
+
+h3 {
+
+    color: rgb(0, 0, 0);
 }

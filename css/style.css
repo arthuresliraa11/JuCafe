@@ -202,170 +202,184 @@ main {
 }
 
 /* reagras do MAIN acaba aqui */
+.two_part {
+    background-color: #FFF0D1;
+    display: block;
+    height: 360px;
+    padding-top: 20px;
 
-.destaque::before {
 
+
+}
+
+.two_text {
+    display: flex;
+    color: #982417;
+    font-size: 32px;
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 20px;
+
+
+}
+
+.two_text::before {
     content: "";
     /* Conteúdo vazio é necessário para pseudo-elementos */
-    display: block;
+    display: flex;
     /* Para controlar largura e altura */
-    margin-top: 5px;
     width: 10px;
     /* Largura da barra */
-    height: 1.2em;
+    height: 1.1em;
     /* Altura da barra (ajuste conforme a altura da sua fonte) */
     background-color: #A52A2A;
     /* Cor da barra (marrom, como na imagem) */
     margin-right: 10px;
     /* Espaço entre a barra e o texto */
     vertical-align: middle;
-    /* Manter o alinhamento vertical */
-
+    /* Alinha a barra verticalmente com o texto */
 }
 
-.parte_dois {
+.caixa_one {
 
+    background-image: url(../img/Increase.png);
+    padding-top: 10px;
+    margin-top: 10px;
+    background-position: center 0.5px;
+    background-repeat: no-repeat;
     display: flex;
-    background-color: #FFF0D1;
-    height: 360px;
-
-}
-
-.destaque {
-
-    display: flex;
-    color: #982417;
-    padding-left: 15px;
-    margin-top: 30px;
-    font-family: "Lekton", monospace;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 32px;
-
-}
-
-.destaque::before {
-    content: "";
-    /* Conteúdo vazio é necessário para pseudo-elementos */
-    display: flex;
-    /* Para controlar largura e altura */
-
-    gap: -10px;
-    width: 10px;
-    /* Largura da barra */
-    height: 1.2em;
-    /* Altura da barra (ajuste conforme a altura da sua fonte) */
-    background-color: #A52A2A;
-    /* Cor da barra (marrom, como na imagem) */
-    margin-right: 8px;
-    /* Espaço entre a barra e o texto */
-    vertical-align: :bottom
-        /* Manter o alinhamento vertical */
-
-
-}
-
-.pai_one {
-
-   
-    display: flex;
-    background-repeat: none;
+    width: 300px;
+    height: 249px;
+    background-color: white;
     text-align: center;
-    margin-top: 90px;
+    margin-left: 350px;
+
+
+}
+
+
+
+
+.p_one {
+
+    gap: 10px;
+    color: #982417;
+    margin-top: 10px;
+
+
+}
+
+.text_one {
+    margin-top: 120px;
+    font-size: 16px;
+
+}
+
+
+.caixa_two {
+    display: flex;
+    justify-items: center;
+    margin-left: 100px;
+    background-color: #982417;
+}
+
+.caixa_tree {
+
+    display: flex;
     background-color: white;
     width: 300px;
     height: 249px;
-    padding-top: -100px;
-    
-   
-    
-
+    margin-left: 750px;
+    margin-top: -250px;
 
 }
 
+.text_tree {
 
-
-
-
-
-
-.text_one {
-
-
-   background-image: url(../img/Increase.png);
-   background-repeat: no-repeat;
-   text-align: center;
     display: block;
-    color: #000000;
-    width: 200px;
+    justify-content: center;
     text-align: center;
-    margin-top: 120px;
-    margin-left: 55px;
-    font-size: 16px;
-    padding-top: 10px;
+    margin-top: 130px;
+    height: 10px;
+
 
 }
 
-.mercado {
 
-    color: #982417;
-    padding: 10px;
-}
-
-h3 {
-
-    color: rgb(0, 0, 0);
-}
-
-
-.tre_part{
+.caixa_for {
+    background-color: white;
     display: flex;
-    height: 595px;
-    background-color: #000000;
+    width: 300px;
+    height: 249px;
+    background-color: white;
+    text-align: center;
+    margin-left: 1100px;
+    margin-top: -250px;
+
+
+}
+
+.text_for {
+    display: block;
+    margin-top: 130px;
+
+}
+
+.part_tre {
     background-image: url(../img/franqueado.png);
-    justify-content: left;
+    background-position: right;
     background-repeat: no-repeat;
-    margin-top: 10px;
-   
-    
-    
 
-
-
-
+    background-color: rgb(0, 0, 0);
+    height: 595px;
+    margin-top: 48px;
 
 
 }
 
 
-.depoimentos{
-    display: flex;
+
+.text_tre {
     color: white;
-    font-size: 30px;
-    margin-top: 10px;
-    
+    display: flex;
+    padding-top: 10px;
+    font-size: 32px;
 
 
 }
 
-
-.depoimentos::before {
+.text_tre::before {
     content: "";
     /* Conteúdo vazio é necessário para pseudo-elementos */
     display: flex;
     /* Para controlar largura e altura */
-
-    gap: -10px;
-    width: 4px;
+    width: 10px;
     /* Largura da barra */
-    height: 1.2em;
+    height: 1.1em;
     /* Altura da barra (ajuste conforme a altura da sua fonte) */
     background-color: #ffffff;
     /* Cor da barra (marrom, como na imagem) */
     margin-right: 10px;
     /* Espaço entre a barra e o texto */
-    vertical-align: :bottom
-        /* Manter o alinhamento vertical */
+    vertical-align: middle;
+    /* Alinha a barra verticalmente com o texto */
+}
 
 
+.text_one_tree {
+    display: flex;
+    margin-right: 300px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.nome{
+    display: flex;
+    font-size: 32px;
+    margin-top: 400px;
+    margin-left: 100px;
+   margin-right:100px;
+   text-align: center;
 }

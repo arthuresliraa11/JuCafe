@@ -243,7 +243,6 @@ main {
 
 .caixa_one {
 
-    background-image: url(../img/Increase.png);
     padding-top: 10px;
     margin-top: 10px;
     background-position: center 0.5px;
@@ -254,6 +253,10 @@ main {
     background-color: white;
     text-align: center;
     margin-left: 350px;
+    background-image: url(../img/Increase.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center 30px;
 
 
 }
@@ -263,7 +266,7 @@ main {
 
 .p_one {
 
-    gap: 10px;
+
     color: #982417;
     margin-top: 10px;
 
@@ -271,10 +274,13 @@ main {
 }
 
 .text_one {
+
     margin-top: 120px;
     font-size: 16px;
 
 }
+
+
 
 
 .caixa_two {
@@ -292,8 +298,13 @@ main {
     height: 249px;
     margin-left: 750px;
     margin-top: -250px;
+    background-image: url(../img/sack-dollar-solid.svg);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center 30px;
 
 }
+
 
 .text_tree {
 
@@ -302,12 +313,14 @@ main {
     text-align: center;
     margin-top: 130px;
     height: 10px;
+    
 
 
 }
 
 
 .caixa_for {
+
     background-color: white;
     display: flex;
     width: 300px;
@@ -316,9 +329,14 @@ main {
     text-align: center;
     margin-left: 1100px;
     margin-top: -250px;
-
+    background-image: url(../img/acordo.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center 30px;
 
 }
+
+
 
 .text_for {
     display: block;
@@ -327,13 +345,14 @@ main {
 }
 
 .part_tre {
+
     background-image: url(../img/franqueado.png);
     background-position: right;
     background-repeat: no-repeat;
-
     background-color: rgb(0, 0, 0);
     height: 595px;
     margin-top: 48px;
+
 
 
 }
@@ -341,10 +360,16 @@ main {
 
 
 .text_tre {
+
     color: white;
     display: flex;
     padding-top: 10px;
     font-size: 32px;
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 20px;
+
 
 
 }
@@ -369,17 +394,52 @@ main {
 
 .text_one_tree {
     display: flex;
+    height: 10px;
+    font-weight: 100px;
+    margin: 0px;
+    font-size: 40px;
     margin-right: 300px;
     margin-top: 100px;
     display: flex;
-    
+
 }
 
-.nome{
+
+.nome {
     display: flex;
     font-size: 32px;
     margin-top: 400px;
     margin-left: 100px;
-   margin-right:100px;
-   text-align: center;
+    margin-right: 100px;
+    text-align: center;
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
+}
+
+.escrita {
+    padding-top: 80px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    width: 844px;
+    height: 258px;
+    font-family: "Lekton", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.name {
+    color: #ffffff;
+    font-size: 32px;
+    margin-left: 10px;
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.name_tu{
+    color: white;
+    margin-left: 10px;
 }

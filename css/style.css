@@ -313,7 +313,7 @@ main {
     text-align: center;
     margin-top: 130px;
     height: 10px;
-    
+
 
 
 }
@@ -439,7 +439,73 @@ main {
     font-style: normal;
 }
 
-.name_tu{
+.name_tu {
     color: white;
     margin-left: 10px;
 }
+
+.ultima_parte {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 32px;
+    margin-top: 600px;
+
+
+
+}
+
+.text_ult {
+    display: flex;
+    font-size: 32px;
+    margin-left: 10px;
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #982417;
+
+}
+
+.text_ult::before {
+    content: "";
+    /* Conteúdo vazio é necessário para pseudo-elementos */
+    display: block;
+    /* Para controlar largura e altura */
+    width: 10px;
+    /* Largura da barra */
+    height: 1.1em;
+    /* Altura da barra (ajuste conforme a altura da sua fonte) */
+    background-color: #982417;
+    /* Cor da barra (marrom, como na imagem) */
+    margin-right: 10px;
+    /* Espaço entre a barra e o texto */
+    vertical-align: middle;
+    /* Alinha a barra verticalmente com o texto */
+}
+
+
+.modelo_bistro_ONE{
+   
+    background-position: center -30px;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #982417;
+    width: 308px;
+    margin-top: 50px;
+}
+
+
+.modelo_bistro_TWO{
+    justify-content: center;
+    text-align: center;
+    margin-left: 500px;
+    background-color: #982417;
+    width: 308px;
+    margin-top: 50px;
+    
+
+}
+
+
+
+
